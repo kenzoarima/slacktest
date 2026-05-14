@@ -6,12 +6,16 @@
   "scripts": {
     "start": "node index.js",
     "dev": "node --watch index.js",
+    "start:index3": "node index3.js",
+    "dev:index3": "node --watch index3.js",
     "test": "echo \"No tests configured\""
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@slack/bolt": "^4.7.2",
+    "dotenv": "^17.4.2",
     "express": "^5.2.1"
   }
 }
